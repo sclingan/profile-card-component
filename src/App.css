@@ -55,6 +55,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /* TODO:
    fix background images on body
    fonts aren't working
+   stack content on profile stats
 */
 body {
   display: flex;
@@ -66,7 +67,7 @@ body {
   background-color: var(--primary-dark-cyan);
   background-image: url(../src/assets/images/bg-pattern-top.svg);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: 20rem 15rem; 
   padding-top: 6rem;
 }
 
@@ -79,23 +80,17 @@ body {
   min-width: 20.3125rem;
 }
 
-header {
-  background-image: url(../src/assets/images/bg-pattern-card.svg);
-  background-repeat: no-repeat;
-  min-width: 100%;
-  min-height: 8rem;
-}
-
 .img__hero {
   position: absolute;
   top: 0;
-  margin-top: 5rem;
-  margin-left: 7rem;
+  margin-top: 5.4rem;
+  margin-left: 8rem;
   border-radius: 50%;
+  border: .5rem solid white;
 }
 
 .div__profile_info {
-  padding-top: 4rem;
+  padding-top: 5rem;
 }
 
 .span__bold {

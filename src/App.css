@@ -52,11 +52,13 @@ p, h1, h2, h3, h4, h5, h6 {
   --fw-700: 700;
   --ff: 'Humbh Sans';
 }
+
 /* TODO:
    fix background images on body
    fonts aren't working
    stack content on profile stats
 */
+
 body {
   display: flex;
   place-content: center;
@@ -101,16 +103,25 @@ body {
 }
 
 .div__profile_stats {
+  border-top: 1px solid lightgrey; /* fix this */
+  padding: 2rem;
+}
+
+ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-top: 1px solid lightgrey; /* fix this */
-  padding-top: 2rem;
-  padding-inline: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.p__bold {
+.ul__bold {
   font-weight: var(--fw-700);
+  padding-left: 1rem;
+}
+
+.ul__info {
 }
 
 .attribution { 

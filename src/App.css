@@ -50,7 +50,7 @@ p, h1, h2, h3, h4, h5, h6 {
   --neutral-gray: hsl(0, 0%, 59%);
   --fw-400: 400;
   --fw-700: 700;
-  --ff: 'Humbh Sans';
+  --ff: 'Kumbh Sans';
 }
 
 /* TODO:
@@ -99,26 +99,29 @@ body {
   font-weight: var(--fw-700);
   color: var(--primary-desat-blue);
   padding-right: .5rem;
-  font-size: 1.3rem;
+}
+
+.div__profile_personal {
+  padding-bottom: 1.5rem;
 }
 
 .div__profile_stats {
-  border-top: 1px solid lightgrey; /* fix this */
+  /* border-top: 1px solid var(--neutral-gray);  */
+  border-top: .1rem solid lightgray;
   padding: 2rem;
 }
 
 ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  padding-left: .5rem;
 }
 
 .ul__bold {
   font-weight: var(--fw-700);
-  padding-left: 1rem;
+  color: var(--primary-desat-blue);
+  font-size: 1.5rem;
 }
 
 .ul__info {

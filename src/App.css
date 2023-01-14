@@ -55,7 +55,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* TODO:
    fix background images on body
-   fonts aren't working
    stack content on profile stats
 */
 
@@ -93,6 +92,7 @@ body {
 
 .div__profile_info {
   padding-top: 5rem;
+  color: var(--neutral-gray);
 }
 
 .span__bold {
@@ -116,6 +116,7 @@ ul {
   grid-template-columns: 1fr 1fr 1fr;
   list-style-type: none;
   padding-left: .5rem;
+  color: var(--neutral-gray);
 }
 
 .ul__bold {

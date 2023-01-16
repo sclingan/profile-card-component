@@ -126,6 +126,8 @@ ul {
 }
 
 .ul__info {
+  font-size: 0.75rem;
+  letter-spacing: .1rem;
 }
 
 .attribution { 

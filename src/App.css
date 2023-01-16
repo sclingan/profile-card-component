@@ -54,7 +54,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* TODO:
-   fix background images on body
+   adjust background images on media query
    stack content on profile stats
 */
 
@@ -66,9 +66,10 @@ body {
   font-weight: var(--fw-400);
   color: var(--primary-gray-blue);
   background-color: var(--primary-dark-cyan);
-  background-image: url(../src/assets/images/bg-pattern-top.svg);
+  background-image: url(../src/assets/images/bg-pattern-top.svg), url(../src/assets/images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position: 49rem 25rem; 
+  background-position: -20rem -18rem, 13rem 20rem;
+  background-size: 30rem;
   padding-top: 6rem;
 }
 
@@ -91,7 +92,7 @@ body {
 }
 
 .div__profile_info {
-  padding-top: 5rem;
+  padding-top: 4rem;
   color: var(--neutral-gray);
 }
 
@@ -106,9 +107,8 @@ body {
 }
 
 .div__profile_stats {
-  /* border-top: 1px solid var(--neutral-gray);  */
   border-top: .1rem solid lightgray;
-  padding: 2rem;
+  padding: 1.2rem;
 }
 
 ul {

@@ -54,8 +54,9 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* TODO:
-   adjust background images on media query
-   stack content on profile stats
+   adjust background images on media query and card position
+   stack content on profile stats/ check to see if..
+   ..there is a better way
 */
 
 body {
@@ -138,4 +139,11 @@ ul {
 
 .attribution a {
    color: hsl(228, 45%, 44%); 
+  }
+
+  @media (min-width: 56.25rem) {
+
+    body {
+      background-position: -2rem -10rem, 35rem 23rem;
+    }
   }

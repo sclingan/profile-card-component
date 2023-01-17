@@ -51,7 +51,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### What I learned
 
 I had a hard time trying to figure out how to have two different
-background images and how to position them according to desing. I 
+background images and how to position them according to design. I 
 also think my solution to the list items could have been done better, but for now it works.
 
 
